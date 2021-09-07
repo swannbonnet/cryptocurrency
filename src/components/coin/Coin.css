@@ -1,0 +1,46 @@
+.coin{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #E5E7E9;
+}
+
+.image_coin{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.title_coin{
+    width: 200px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #111111;
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.data_coin{
+    width: 200px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #111111;
+    text-align: center;
+}
+
+.percentage_green{
+    width: 60px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #52BE80;
+    text-align: center;
+}
+.percentage_red{
+    width: 60px;
+    font-size: 16px;
+    font-weight: 500;
+    color:red;
+    text-align: center;
+}
